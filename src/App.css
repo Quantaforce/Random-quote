@@ -1,12 +1,51 @@
 .App {
   text-align: center;
 }
+#quote-box{
+  width:450px;
+  padding: 20px 20px;
+  background: white;
+  border-radius: 10px;
+  font-family: Raleway;
+  font-weight: 400;
 
+}
+#text{
+  height: auto;}
+#text>span{
+ margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+#author{
+  text-align: right;}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+#tweet-quote{
+  margin-top:30px;
+  background-color:blue;
+  padding: 8px 0px;
+  height: 30px;
+  width: 40px;
+  display: block;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+}
+#tweet-quote>i{
+  color:white;
+  font-size: 1.2em;
+display:inline-block;
+  vertical-align: baseline;
 
+}
+#interact{
+  display: flex;
+  justify-content: space-between;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
